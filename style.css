@@ -21,9 +21,16 @@
     font-size: 55px;
 }
 
+
 .phone{
-    z-index: 1;
+    position: relative;
 }
+.phone img{
+    position: absolute;
+    top: -30px;
+    left: 90px;
+}
+
 @media screen and (max-width:796px){
     .phone{
         display: block;
